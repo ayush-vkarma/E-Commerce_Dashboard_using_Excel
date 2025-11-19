@@ -1,69 +1,55 @@
 # 📊 E-Commerce Sales Dashboard (Excel)
 
+![Dashboard Preview](Dashboard_Screenshots/DASHBOARD.png)
+
 ## 🔍 Objective
-Analyze sales performance and customer trends to track business KPIs and support decision-making using an interactive Excel dashboard.
+Analyze sales performance and customer behavior to identify high-revenue opportunities and enable data-driven decision-making through an interactive Excel dashboard.
 
 ---
 
-## 🧰 Tools & Skills Used
+## 🧰 Tools & Techniques
 - Excel
-- Pivot Tables
-- Data Modeling
-- Slicers / Combo Box Filters
-- KPI Metrics
+- Pivot Tables & Pivot Charts
 - Data Cleaning & Transformation
-- Conditional Formatting & Charts
+- Slicers / Combo Box Filters
+- KPI Metrics & Conditional Formatting
+- Data Modeling for Dashboards
 
 ---
 
-## 📈 Dashboard Features
-- Dynamic KPI widgets linked to product categories and customer segments
-- Monthly revenue trend visualization
-- Top-performing products and regions breakdown
-- Customer segment contribution analysis
-- Interactive combo box + slicer-based filtering for real-time insights
+## 📈 Dashboard Highlights
+- Dynamic KPI cards linked to combo-box filters
+- Trend analysis for monthly revenue growth
+- Top products and regional performance ranking
+- Customer segmentation insights
+- Fully interactive dashboards supporting drilling and comparative analysis
 
 ---
 
 ## 🧠 Dataset & Workflow
-| Sheet | Purpose |
-|-------|---------|
-| **Sales Data** | Raw transactional data |
-| **Working** | Cleaned and transformed dataset for dashboard modeling (used to generate combo box and KPIs) |
+| Sheet | Description |
+|-------|-------------|
+| **Sales Data** | Raw transactional dataset |
+| **Working** | Cleaned, structured & transformed dataset used for KPI calculations and filtering |
 | **Dashboard** | Final interactive dashboard |
 
-Key data tasks performed:
-- Removed duplicates and null records
+### Data Preparation Steps
+- Removed duplicates and null values
 - Standardized date and category fields
-- Created calculated KPI fields (Revenue, Quantity Sold, Avg. Order Value)
-- Derived lookup table to support dynamic filters
+- Built lookup table for combo-box filters
+- Created calculated fields:
+  - **Revenue**
+  - **Quantity Sold**
+  - **Average Order Value (AOV)**
 
 ---
 
-## 🔑 Key Insights Delivered
-- Identified the highest revenue-generating product categories
-- Highlighted customer segments that drive maximum order value
-- Revealed seasonal/monthly patterns in sales performance
-- Showed regional contribution to total revenue
+## 🔑 Key Insights
+- Identified highest revenue-generating product categories and customer groups
+- Revealed regional sales contribution and seasonal purchase trends
+- Highlighted a strong monthly growth pattern in total revenue
+- Dashboard automation reduced manual reporting effort by **40%**
 
 ---
 
-## 🛠️ Business Impact
-The interactive dashboard replaces manual reporting and:
-- Reduces reporting time by **40%**
-- Helps stakeholders identify high-value customer groups
-- Enables fast product performance comparisons across regions and time periods
-
----
-
-## 📁 Files in this repository
-- `PROJECT_1_E-COMMERCE_DASHBOARD_AYUSH_VISHWAKARMA.xlsx` — Full project file
-- `Dashboard_Screenshots/` — Visuals of the final dashboard
-- `Documentation.pdf` *(optional if you want to upload later)*
-
----
-
-## 🚀 Future Enhancements
-- Convert dashboard to Power BI version
-- Add forecast view for revenue prediction
-
+## 📁 Repository Contents
